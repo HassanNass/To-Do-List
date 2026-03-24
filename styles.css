@@ -38,3 +38,24 @@ input {
 	background-color: orange;
 	color: #fff;
 }
+
+/* Styling the task item component */
+
+.task {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 3px;
+	padding: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task li {
+	list-style: none;
+	flex: 4;
+	padding: 5px;
+	font-size: 1.3rem;
+	margin: 10px;
+}
